@@ -1,16 +1,58 @@
-# React + Vite
+# SafeWeaTHER 🌤
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nowoczesna aplikacja pogodowa stworzona w React oraz Vite.
 
-Currently, two official plugins are available:
+## Funkcjonalności
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- wyświetlanie aktualnej pogody
+- prognoza pogody na 7 dni
+- automatyczne wykrywanie lokalizacji użytkownika
+- wyszukiwanie miasta
+- dynamiczne tło zależne od temperatury
+- nowoczesny interfejs glassmorphism
+- responsywny wygląd aplikacji
 
-## React Compiler
+## Technologie
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- CSS
+- Open-Meteo API
+- Geolocation API
+- Vitest
+- React Testing Library
 
-## Expanding the ESLint configuration
+## Komponenty
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- App
+- CurrentWeather
+- Forecast
+- WeatherCard
+- SearchBar
+- Loader
+- ErrorMessage
+
+## Instalacja projektu
+
+```bash
+npm install
+npm run dev
+```
+
+## Uruchamianie testów
+
+```bash
+npm run test
+```
+
+## Demo online
+
+https://funny-kleicha-ab231a.netlify.app
+
+## Repozytorium GitHub
+
+https://github.com/Zuzanna164372/SafeWeaTHER.git
+
+## Autor
+
+Zuzanna Bogusiak
